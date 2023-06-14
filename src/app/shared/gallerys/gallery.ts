@@ -7,8 +7,8 @@ export const galleries: IGallery = {
 	subCategory: 'time',
 	images: [
 		{
-			url: 'https://c.dns-shop.ru/thumb/st1/fit/0/0/dff090e667cd39dd397678905df52de5/6c3e7aab802deb19513c7cf55dd7c527efb9127d8aba2ed90f3d224577137fe2.jpg',
-			source: '6c3e7aab802deb19513c7cf55dd7c527efb9127d8aba2ed90f3d224577137fe2.jpg',
+			url: 'src/assets/images/часы DEN/1.jpg',
+			source: '',
 		},
 		{
 			url: 'https://c.dns-shop.ru/thumb/st4/fit/wm/2000/2000/2f06814e52f8c780fa094eb0c8607c97/9e36eded9a34407a9d962a5da5269fea6df2a3467ff103821f5e3d66791ef1b7.jpg',
