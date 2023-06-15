@@ -1,4 +1,4 @@
-import { IGallery } from './igallery.interface';
+import { IGallery } from './gallery.interface';
 
 export const galleries: IGallery = {
 	// eslint-disable-next-line @typescript-eslint/naming-convention
