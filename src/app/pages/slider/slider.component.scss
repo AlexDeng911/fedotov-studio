@@ -23,9 +23,10 @@
 }
 
 .gallery img {
-	width: 60%;
+	width: 100%;
+	object-fit: cover;
 	display: flex;
 	overflow: hidden;
-	margin: 0 8px;
+	margin: 15px;
 	justify-content: center;
 }
