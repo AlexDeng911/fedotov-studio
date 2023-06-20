@@ -100,12 +100,49 @@ svg#clouds {
 	width: 1920px;
 }
 
-@media only screen and (height < 480px) {
-	.toolbar,
-	footer {
-		display: none;
+@media screen and (aspect-ratio > 2.22) {
+	.toolbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 60px;
+		height: 100%;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	span {
+		display: inline-block;
+		transform: rotate(-90deg);
+		transform-origin: center center;
+		margin-top: 23px;
+	}
+	.toolbar img {
+		margin: 20px 0;
+	}
+
+	.toolbar #instagram-logo {
+		height: 30px;
+		margin: 8px 0;
+	}
+
+	.toolbar #youtube-logo {
+		height: 30px;
+		margin: 8px 0;
+	}
+
+	.toolbar #instagram-logo:hover,
+	.toolbar #youtube-logo:hover {
+		opacity: 0.8;
 	}
 	.content {
-		display: contents;
+		//max-width: 60%;
+		height: 100%;
+		//justify-content: space-between;
+		vertical-align: center;
+		margin: auto;
+	}
+	footer {
+		display: none;
 	}
 }
