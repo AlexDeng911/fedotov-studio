@@ -1,0 +1,74 @@
+.spacer {
+	flex: 1;
+}
+
+.toolbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+	display: flex;
+	background-color: #5a5a5a;
+	color: white;
+}
+
+.toolbar img {
+	margin: 0 16px;
+}
+.span {
+	margin-left: 52px;
+	font-weight: 400;
+}
+
+.toolbar #instagram-logo {
+	height: 40px;
+	margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+	height: 40px;
+	margin: 0 16px;
+}
+
+.toolbar #instagram-logo:hover,
+.toolbar #youtube-logo:hover {
+	opacity: 0.8;
+}
+
+@media screen and (aspect-ratio > 2.22) {
+	.toolbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 60px;
+		height: 100%;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	span {
+		display: inline-block;
+		transform: rotate(-90deg);
+		transform-origin: center center;
+		margin-top: 52px;
+	}
+	.toolbar img {
+		margin: 15px 0;
+	}
+
+	.toolbar #instagram-logo {
+		height: 30px;
+		margin: 8px 0;
+	}
+
+	.toolbar #youtube-logo {
+		height: 30px;
+		margin: 8px 0;
+	}
+
+	.toolbar #instagram-logo:hover,
+	.toolbar #youtube-logo:hover {
+		opacity: 0.8;
+	}
+}
