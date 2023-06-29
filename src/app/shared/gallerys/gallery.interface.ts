@@ -1,4 +1,4 @@
-import { IGalleryImage } from './gallery-image';
+import { IGalleryImage } from './gallery-image.interface';
 
 export interface IGallery {
 	_id: string;

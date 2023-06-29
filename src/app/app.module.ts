@@ -11,9 +11,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { SliderModule } from './pages/slider/slider.module';
 import { NgOptimizedImage } from '@angular/common';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { CarouselModule } from './shared/carousel/carousel.module';
+import { HeaderModule } from './components/header/header.module';
 
 @NgModule({
-	declarations: [AppComponent, SliderComponent],
+	declarations: [AppComponent],
 	imports: [
 		BrowserModule,
 		AppRoutingModule,
@@ -22,9 +25,13 @@ import { NgOptimizedImage } from '@angular/common';
 		MatButtonModule,
 		MatIconModule,
 		NgOptimizedImage,
+		MatProgressSpinnerModule,
+		SliderModule,
+		CarouselModule,
+		HeaderModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent],
-	exports: [SliderComponent],
+	exports: [],
 })
 export class AppModule {}

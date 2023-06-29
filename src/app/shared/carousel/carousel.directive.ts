@@ -32,6 +32,7 @@ export class CarouselDirective<T> implements OnChanges, OnInit, OnDestroy {
 	}
 	ngOnInit() {
 		this.listenCurrentIndexChange();
+		console.log(this.appCarouselOf);
 	}
 	ngOnDestroy() {
 		this.destroy$.next();
